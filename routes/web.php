@@ -1,5 +1,9 @@
 <?php
 
-Route::get('/', 'FrontController@index');
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/depan', 'FrontController@index');
 
 // Coba Github
