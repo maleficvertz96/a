@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>GPIB "IMMANUEL" Mojokerto</title>
+    <title>Montana</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -38,7 +38,7 @@
             <div id="sticky-header" class="main-header-area">
                 <div class="container-fluid p-0">
                     <div class="row align-items-center no-gutters">
-                        <div class="col-xl-6 col-lg-6">
+                        <div class="col-xl-5 col-lg-6">
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
@@ -50,16 +50,30 @@
                                                 <li><a href="">Ibadah Pelkat</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="">Agenda Kegiatan Gereja</a></li>
-                                        <li><a href="">Tentang Gereja</a></li>
-                                        <li><a href="#">Bantuan <i class="ti-angle-down"></i></a>
+                                        <li><a href="">Agenda</a></li>
+                                        <li><a href="">Tentang</a></li>
+                                        <li><a href="">Bantuan <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="">Pengajuan Perubahan Jadwal</a></li>
-                                                <li><a href="">Donasi</a></li>
+                                                <li><a href="elements.html">Pengajuan Perubahan Jadwal</a></li>
+                                                <li><a href="elements.html">Donasi</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                                <a href="">
+                                    <img src="{{ asset ('front/img/gpib.png')}}" alt="" width="112 px" height="92">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-4 d-none d-lg-block">
+                            <div class="book_room">
+                                <div class="book_btn d-none d-lg-block">
+                                    <a class="popup-with-form" href="">Book A Room</a>
+                                </div>
                             </div>
                         </div>
                         <div class="col-12">
@@ -141,7 +155,7 @@
                         <p>Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer dolor ornare
                             dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas, dolor sem. Neque
                             sollicitudin enim. Dapibus lorem feugiat facilisi faucibus et. Rhoncus.</p>
-                        <a href="#" class="line-button">Learn More</a>
+                        <a href="" class="line-button">Learn More</a>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7">
@@ -174,7 +188,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_offers">
                         <div class="about_thumb">
-                            <img src="img/offers/1.png" alt="">
+                            <img src="{{ asset ('front/img/offers/1.png')}}" alt="">
                         </div>
                         <h3>Up to 35% savings on Club <br>
                             rooms and Suites</h3>
@@ -183,13 +197,13 @@
                             <li>3 Adults & 2 Children size</li>
                             <li>Sea view side</li>
                         </ul>
-                        <a href="#" class="book_now">book now</a>
+                        <a href="" class="book_now">book now</a>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-4">
                     <div class="single_offers">
                         <div class="about_thumb">
-                            <img src="img/offers/2.png" alt="">
+                            <img src="{{ asset ('front/img/offers/2.png')}}" alt="">
                         </div>
                         <h3>Up to 35% savings on Club <br>
                             rooms and Suites</h3>
@@ -198,13 +212,13 @@
                             <li>3 Adults & 2 Children size</li>
                             <li>Sea view side</li>
                         </ul>
-                        <a href="#" class="book_now">book now</a>
+                        <a href="" class="book_now">book now</a>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-4">
                     <div class="single_offers">
                         <div class="about_thumb">
-                            <img src="img/offers/3.png" alt="">
+                            <img src="{{ asset ('front/img/offers/3.png')}}" alt="">
                         </div>
                         <h3>Up to 35% savings on Club <br>
                             rooms and Suites</h3>
@@ -213,7 +227,7 @@
                             <li>3 Adults & 2 Children size</li>
                             <li>Sea view side</li>
                         </ul>
-                        <a href="#" class="book_now">book now</a>
+                        <a href="" class="book_now">book now</a>
                     </div>
                 </div>
             </div>
@@ -241,10 +255,10 @@
                 <div class="col-xl-7 col-lg-7">
                     <div class="about_thumb2 d-flex">
                         <div class="img_1">
-                            <img src="img/about/1.png" alt="">
+                            <img src="{{ asset ('front/img/about/1.png')}}" alt="">
                         </div>
                         <div class="img_2">
-                            <img src="img/about/2.png" alt="">
+                            <img src="{{ asset ('front/img/about/2.png')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -258,7 +272,7 @@
                         <p>Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer dolor ornare
                             dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas, dolor sem. Neque
                             sollicitudin enim. Dapibus lorem feugiat facilisi faucibus et. Rhoncus.</p>
-                        <a href="#" class="line-button">Learn More</a>
+                        <a href="" class="line-button">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -293,7 +307,7 @@
             </div>
             <div class="single_rooms">
                 <div class="room_thumb">
-                    <img src="{{ asset ('front/img/rooms/2.png')}}" alt="">
+                    <img src="{{ asset('front/img/rooms/2.png')}}" alt="">
                     <div class="room_heading d-flex justify-content-between align-items-center">
                         <div class="room_heading_inner">
                             <span>From $250/night</span>
@@ -311,7 +325,7 @@
                             <span>From $250/night</span>
                             <h3>Signature Room</h3>
                         </div>
-                        <a href="#" class="line-button">book now</a>
+                        <a href="" class="line-button">book now</a>
                     </div>
                 </div>
             </div>
@@ -406,31 +420,48 @@
         <div class="footer_top">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-4 col-md-6 col-lg-3">
+                    <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Alamat :
+                                address
                             </h3>
-                            <p class="footer_text"> Jalan A. Yani No. 1 <br>
-                                Kecamatan Sooko, Kabupaten Mojokerto</p>
-                            <!-- <a href="#" class="line-button">Get Direction</a> -->
+                            <p class="footer_text"> 200, Green road, Mongla, <br>
+                                New Yor City USA</p>
+                            <a href="#" class="line-button">Get Direction</a>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6 col-lg-3">
+                    <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Telepon / Fax :
+                                Reservation
                             </h3>
-                            <p class="footer_text"> (0321) 322295 (K) <br>
-                                0821 3933 6703</p>
+                            <p class="footer_text">+10 367 267 2678 <br>
+                                reservation@montana.com</p>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6 col-lg-2">
+                    <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Email :
+                                Navigation
                             </h3>
-                            <p class="footer_text"> gpib_immanuel_mojokerto@yahoo.co.id </p>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Rooms</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Newsletter
+                            </h3>
+                            <form action="#" class="newsletter_form">
+                                <input type="text" placeholder="Enter your mail">
+                                <button type="submit">Sign Up</button>
+                            </form>
+                            <p class="newsletter_text">Subscribe newsletter to get updates</p>
                         </div>
                     </div>
                 </div>
@@ -445,9 +476,8 @@
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;<script>
                                 document.write(new Date().getFullYear());
-                            </script> GPIB "IMMANUEL" Mojokerto
-                            <!-- <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
-                                href="https://colorlib.com" target="_blank">Colorlib</a> -->
+                            </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
+                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>
                 </div>
@@ -548,6 +578,8 @@
 
         });
     </script>
+
+
 
 </body>
 
