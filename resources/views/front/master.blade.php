@@ -2,29 +2,7 @@
 <html class="no-js" lang="zxx">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Montana</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    {{-- <link rel="shortcut icon" type="image/x-icon" href="{{ asset ('front/img/favicon.png')}}"> --}}
-    <!-- Place favicon.ico in the root directory -->
-
-    <!-- CSS here -->
-    <link rel="stylesheet" href="{{ asset ('front/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{ asset ('front/css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{ asset ('front/css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{ asset ('front/css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{ asset ('front/css/themify-icons.css')}}">
-    <link rel="stylesheet" href="{{ asset ('front/css/nice-select.css')}}">
-    <link rel="stylesheet" href="{{ asset ('front/css/flaticon.css')}}">
-    <link rel="stylesheet" href="{{ asset ('front/css/gijgo.css')}}">
-    <link rel="stylesheet" href="{{ asset ('front/css/animate.css')}}">
-    <link rel="stylesheet" href="{{ asset ('front/css/slicknav.css')}}">
-    <link rel="stylesheet" href="{{ asset ('front/css/style.css')}}">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    @include('front.partial.css')
 </head>
 
 <body>
@@ -34,55 +12,7 @@
 
     <!-- header-start -->
     <header>
-        <div class="header-area ">
-            <div id="sticky-header" class="main-header-area">
-                <div class="container-fluid p-0">
-                    <div class="row align-items-center no-gutters">
-                        <div class="col-xl-5 col-lg-6">
-                            <div class="main-menu  d-none d-lg-block">
-                                <nav>
-                                    <ul id="navigation">
-                                        <li><a class="active" href="">Beranda</a></li>
-                                        <li><a href="">Jadwal Ibadah <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="">Ibadah Hari Minggu</a></li>
-                                                <li><a href="">Ibadah Rumah Tangga</a></li>
-                                                <li><a href="">Ibadah Pelkat</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="">Agenda</a></li>
-                                        <li><a href="">Tentang</a></li>
-                                        <li><a href="">Bantuan <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="elements.html">Pengajuan Perubahan Jadwal</a></li>
-                                                <li><a href="elements.html">Donasi</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-2">
-                            <div class="logo-img">
-                                <a href="">
-                                    <img src="{{ asset ('front/img/gpib.png')}}" alt="" width="112 px" height="92">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-lg-4 d-none d-lg-block">
-                            <div class="book_room">
-                                <div class="book_btn d-none d-lg-block">
-                                    <a class="popup-with-form" href="">Book A Room</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include('front.partial.button')
     </header>
     <!-- header-end -->
 
@@ -94,44 +24,8 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
-                                <h3>Montana Resort</h3>
-                                <p>Unlock to enjoy the view of Martine</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text text-center">
-                                <h3>Life is Beautiful</h3>
-                                <p>Unlock to enjoy the view of Martine</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text text-center">
-                                <h3>Montana Resort</h3>
-                                <p>Unlock to enjoy the view of Martine</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text text-center">
-                                <h3>Life is Beautiful</h3>
-                                <p>Unlock to enjoy the view of Martine</p>
+                                <p>GPIB "IMMANUEL"</p> <br>
+                                <p>Mojokerto</p>
                             </div>
                         </div>
                     </div>
@@ -145,26 +39,30 @@
     <div class="about_area">
         <div class="container">
             <div class="row">
-                <div class="col-xl-5 col-lg-5">
+                <div class="col-xl-7 col-lg-7">
                     <div class="about_info">
                         <div class="section_title mb-20px">
-                            <span>About Us</span>
-                            <h3>A Luxuries Hotel <br>
-                                with Nature</h3>
+                            <span>Sejarah</span>
+                            <h3>Sejarah Gereja <br>
+                                GPIB "IMMANUEL" Mojokerto</h3>
                         </div>
-                        <p>Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer dolor ornare
-                            dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas, dolor sem. Neque
-                            sollicitudin enim. Dapibus lorem feugiat facilisi faucibus et. Rhoncus.</p>
-                        <a href="" class="line-button">Learn More</a>
+                        <p>GPIB Immanuel Mojokerto dengan gedung yang antik dari semua Gereja yang ada di Kota Madya dan
+                            Kabupaten Mojokerto, adalah yang tertua. Tentang tanggal pendiriannya sampai pada saat ini
+                            belum ditemukan, namun berdasarkan data-data yang ada bangunan gedungnya terbuat dari
+                            rangka-rangka besi kuat yang distel di LONDON – LIVERPOOL (Inggris) oleh ISAC DIXON pada
+                            tanggal 31 Agustus 1894. Kemudian diangkut ke INDONESIA-MOJOKERTO dipasang sesuai dengan apa
+                            yang telah diatur dari sana. Bagian luar atas bangunan ini dihias dengan besi putih yang
+                            mahal harganya , membuat seluruh bangunan itu menjadi indah. Rupanya pada zaman penjajahan
+                            gedung ini dipergunakan untuk mengatur pemerintahan yang meliputi Mojokerto dan sekitarnya,
+                            daerah Lamongan dan Kediri. Disudut halaman sebelah barat masih terlihat gua perlindungan
+                            yang dibangun begitu kuat dan tahan lama.</p>
+                        {{-- <a href="" class="line-button">Learn More</a> --}}
                     </div>
                 </div>
-                <div class="col-xl-7 col-lg-7">
+                <div class="col-xl-5 col-lg-5">
                     <div class="about_thumb d-flex">
                         <div class="img_1">
                             <img src="{{ asset ('front/img/about/about_1.png')}}" alt="">
-                        </div>
-                        <div class="img_2">
-                            <img src="{{ asset ('front/img/about/about_2.png')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -535,52 +433,7 @@
     </form>
     <!-- form itself end -->
 
-    <!-- JS here -->
-    <script src="{{ asset ('front/js/vendor/modernizr-3.5.0.min.js')}}"></script>
-    <script src="{{ asset ('front/js/vendor/jquery-1.12.4.min.js')}}"></script>
-    <script src="{{ asset ('front/js/popper.min.js')}}"></script>
-    <script src="{{ asset ('front/js/bootstrap.min.js')}}"></script>
-    <script src="{{ asset ('front/js/owl.carousel.min.js')}}"></script>
-    <script src="{{ asset ('front/js/isotope.pkgd.min.js')}}"></script>
-    <script src="{{ asset ('front/js/ajax-form.js')}}"></script>
-    <script src="{{ asset ('front/js/waypoints.min.js')}}"></script>
-    <script src="{{ asset ('front/js/jquery.counterup.min.js')}}"></script>
-    <script src="{{ asset ('front/js/imagesloaded.pkgd.min.js')}}"></script>
-    <script src="{{ asset ('front/js/scrollIt.js')}}"></script>
-    <script src="{{ asset ('front/js/jquery.scrollUp.min.js')}}"></script>
-    <script src="{{ asset ('front/js/wow.min.js')}}"></script>
-    <script src="{{ asset ('front/js/nice-select.min.js')}}"></script>
-    <script src="{{ asset ('front/js/jquery.slicknav.min.js')}}"></script>
-    <script src="{{ asset ('front/js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{ asset ('front/js/plugins.js')}}"></script>
-    <script src="{{ asset ('front/js/gijgo.min.js')}}"></script>
-
-    <!--contact js-->
-    <script src="{{ asset ('front/js/contact.js')}}"></script>
-    <script src="{{ asset ('front/js/jquery.ajaxchimp.min.js')}}"></script>
-    <script src="{{ asset ('front/js/jquery.form.js')}}"></script>
-    <script src="{{ asset ('front/js/jquery.validate.min.js')}}"></script>
-    <script src="{{ asset ('front/js/mail-script.js')}}"></script>
-
-    <script src="{{ asset ('front/js/main.js')}}"></script>
-    <script>
-        $('#datepicker').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-            rightIcon: '<span class="fa fa-caret-down"></span>'
-        }
-        });
-        $('#datepicker2').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-            rightIcon: '<span class="fa fa-caret-down"></span>'
-        }
-
-        });
-    </script>
-
-
-
+    @include('front.partial.js')
 </body>
 
 </html>
