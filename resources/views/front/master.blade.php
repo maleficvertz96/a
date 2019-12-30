@@ -77,8 +77,8 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-100">
-                        <span>Our Offers</span>
-                        <h3>Ongoing Offers</h3>
+                        <span>Jadwal Ibadah</span>
+                        <h3>Jadwal Ibadah</h3>
                     </div>
                 </div>
             </div>
@@ -88,14 +88,13 @@
                         <div class="about_thumb">
                             <img src="{{ asset ('front/img/offers/1.png')}}" alt="">
                         </div>
-                        <h3>Up to 35% savings on Club <br>
-                            rooms and Suites</h3>
+                        <h3>Ibadah Hari Minggu</h3>
                         <ul>
                             <li>Luxaries condition</li>
                             <li>3 Adults & 2 Children size</li>
                             <li>Sea view side</li>
                         </ul>
-                        <a href="" class="book_now">book now</a>
+                        <a href="" class="book_now">Baca Selengkapnya</a>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-4">
@@ -103,14 +102,13 @@
                         <div class="about_thumb">
                             <img src="{{ asset ('front/img/offers/2.png')}}" alt="">
                         </div>
-                        <h3>Up to 35% savings on Club <br>
-                            rooms and Suites</h3>
+                        <h3>Ibadah Rumah Tangga</h3>
                         <ul>
                             <li>Luxaries condition</li>
                             <li>3 Adults & 2 Children size</li>
                             <li>Sea view side</li>
                         </ul>
-                        <a href="" class="book_now">book now</a>
+                        <a href="" class="book_now">Baca Selengkapnya</a>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-4">
@@ -118,14 +116,13 @@
                         <div class="about_thumb">
                             <img src="{{ asset ('front/img/offers/3.png')}}" alt="">
                         </div>
-                        <h3>Up to 35% savings on Club <br>
-                            rooms and Suites</h3>
+                        <h3>Ibadah Pelkat</h3>
                         <ul>
                             <li>Luxaries condition</li>
                             <li>3 Adults & 2 Children size</li>
                             <li>Sea view side</li>
                         </ul>
-                        <a href="" class="book_now">book now</a>
+                        <a href="" class="book_now">Baca Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -139,9 +136,7 @@
             <span>Montana Sea View</span>
             <h3>Relax and Enjoy your <br>
                 Vacation </h3>
-            <a href="https://www.youtube.com/watch?v=vLnPwxZdW4Y" class="video_btn popup-video">
-                <i class="fa fa-play"></i>
-            </a>
+            <a href="https://www.youtube.com/watch?v=vLnPwxZdW4Y" class="book_now"> Baca Selengkapnya</a>
         </div>
     </div>
     <!-- video_area_end -->
