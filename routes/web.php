@@ -6,4 +6,4 @@ Route::get('/', function () {
 
 Route::get('/depan', 'FrontController@index');
 
-// Coba Github d
+// Coba Github
